@@ -5,8 +5,8 @@ time.sleep(10)
 
 txt = open("animals.txt","r")
 
-a = "você é um"
+a = "voce e um/a"
 
 for i in txt:
-    pg.write(a+""+i)
+    pg.write(a+" "+i)
     pg.press("Enter")
